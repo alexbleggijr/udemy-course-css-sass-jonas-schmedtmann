@@ -84,21 +84,32 @@
           </div>
           <div class="col-1-of-2">
             <div class="composition">
+              <!-- density switching and resolution switching -->
               <img
                 class="composition__photo composition__photo--p1"
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 src="img/nat-1-large.jpg"
                 alt="photo 1"
               />
               <img
                 class="composition__photo composition__photo--p2"
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 src="img/nat-2-large.jpg"
                 alt="photo 2"
               />
               <img
                 class="composition__photo composition__photo--p3"
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 src="img/nat-3-large.jpg"
                 alt="photo 3"
               />
+              <!-- default -->
+              <!-- <img class="composition__photo composition__photo--p1" src="img/nat-1-large.jpg" alt="photo 1"> -->
+              <!-- <img class="composition__photo composition__photo--p2" src="img/nat-2-large.jpg" alt="photo 2"> -->
+              <!-- <img class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg" alt="photo 3"> -->
             </div>
           </div>
         </div>
@@ -397,6 +408,8 @@
               alt="logo"
             />
           </picture>
+          <!-- density switching -->
+          <!-- <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" src="img/logo-green-2x.png" alt="logo"> -->
           <!-- default -->
           <!-- <img class="footer__logo" src="img/logo-green-2x.png" alt="Logo"> -->
         </div>
